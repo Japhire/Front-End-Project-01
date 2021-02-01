@@ -10,3 +10,8 @@ footer {
     background-color: burlywood;
     height: 25px;
 }
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+}
