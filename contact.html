@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="resources.html">Resources</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Contact</h1> 
+    <form action = "contact.html"  method="POST">
+        <fieldset>
+            <h2> Questions on how you can make a difference</h2>
+            <input type="text" id="name" name="user_name" placeholder="name:">
+            <input type="text" id="age"  name="user_age" placeholder="age">
+            <input type="e-mail" id="e-mail" name="user_e-mail" placeholder="e-mail">
+            <textarea id="comment" name="comment" placeholder="comment" maxlength="140"></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+
+    </form>
+<footer>
+    <p>
+        &copy; copyright 2021
+    </p>
+</footer>
+</body>
+</html>
